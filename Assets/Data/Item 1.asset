@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c172f057486e54b9edc46ebe956b54, type: 3}
+  m_Name: Item 1
+  m_EditorClassIdentifier: 
+  type: 1
+  itemId: 1
+  itemName: Gun
+  itemDesc: Attack ++
+  itemIcon: {fileID: -205726582, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
+  baseDamage: 2
+  baseCount: 0
+  damages:
+  - 0.5
+  - 1
+  - 1.5
+  - 1.9
+  - 2
+  counts: 0100000002000000030000000400000005000000
+  projectile: {fileID: 2529977420849599006, guid: c6a4555fb2757364fad286a99dc1556e, type: 3}
+  hand: {fileID: -353751291, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
